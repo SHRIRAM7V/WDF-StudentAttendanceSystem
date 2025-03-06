@@ -214,11 +214,11 @@ const error = false
         <Button
             variant="contained"
             color="primary"
-            style={{margin: ".5rem"}}
+            style={{margin: ".5rem",backgroundColor:"grey", color:"white",borderRadius: "15px"}}
             onClick={handleFormSubmit}
             fullWidth
         >
-            CREATE STUDENT
+            Create Student
         </Button>
         </Paper>
   );

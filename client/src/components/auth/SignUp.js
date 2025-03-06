@@ -87,9 +87,7 @@ export default function SignUp() {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <Avatar className={classes.avatar}>
-          <LockOutlinedIcon />
-        </Avatar>
+        
         <Typography component="h1" variant="h5">
           Sign up
         </Typography>
@@ -104,7 +102,7 @@ export default function SignUp() {
                 required
                 fullWidth
                 id="firstName"
-                label="Full Name"
+                label="Name"
                 autoFocus
                 value={logup.fullName}
                 onChange={handleChange}

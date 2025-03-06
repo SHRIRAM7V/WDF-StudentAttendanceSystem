@@ -107,10 +107,10 @@ export default function Assessment() {
         <Table className={classes.table} aria-label="customized table">
             <TableHead>
             <TableRow>
-                <StyledTableCell>STUDENT NAME</StyledTableCell>
+                <StyledTableCell>Student Name</StyledTableCell>
                 <StyledTableCell align="right">MAT NO.</StyledTableCell>
-                <StyledTableCell align="right">ATTENDANCE COUNT</StyledTableCell>
-                <StyledTableCell align="right">COURSE</StyledTableCell>
+                <StyledTableCell align="right">Attendence Count</StyledTableCell>
+                <StyledTableCell align="right">Course</StyledTableCell>
                 {/* <StyledTableCell align="right">Carbs&nbsp;(g)</StyledTableCell> */}
                 {/* <StyledTableCell align="right">Protein&nbsp;(g)</StyledTableCell> */}
             </TableRow>
