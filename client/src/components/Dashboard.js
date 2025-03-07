@@ -146,10 +146,10 @@ export default function Dashboard() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Class Attend
+            Class Attendance
           </Typography>
           <Button variant="contained" color="secondary" style={{marginLeft: "auto"}} onClick={handleSignout}>
-            LOGOUT
+            Logout
           </Button>
         </Toolbar>
       </AppBar>

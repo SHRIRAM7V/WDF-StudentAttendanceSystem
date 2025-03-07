@@ -357,7 +357,7 @@ export default function Students() {
       {/* <Paper className={classes.paper}> */}
             <FormGroup row>
               <Button variant="outlined" color="primary" onClick={handleOpen} style={{marginLeft: "auto"}}>
-                CREATE STUDENT
+                Create Student
               </Button>
               <Modal
                 open={open}
